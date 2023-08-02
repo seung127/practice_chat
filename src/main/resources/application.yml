@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    static-locations: /resources/**
+    view:
+      prefix: /resources/
+      suffix: .jsp
+  devtools:
+    livereload:
+      enabled: true
+  freemarker:
+    cache: false
