@@ -10,6 +10,10 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.socket.messaging.SessionConnectedEvent;
 import org.springframework.web.socket.messaging.SessionDisconnectEvent;
 
+/**
+ * 이벤트 리스너를 사용하여 소켓 연결 및 연결 해제
+ * 이벤트를 수신하여 이러한 이벤트를 기록하고 사용자가 채팅방에 들어오거나 나갈 때 브로드캐스트
+ */
 @Component
 public class WebSocketEventListener {
 
